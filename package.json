@@ -1,0 +1,33 @@
+{
+  "name": "web-proxy-server",
+  "version": "0.0.1",
+  "description": "the node proxy server",
+  "keywords": [
+    "host",
+    "proxy",
+    "server"
+  ],
+  "author": "DB Eriospermum <imnodb@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imnodb/web-proxy-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/imnodb/web-proxy-server/issues"
+  },
+  "engines": {
+    "node": ">= 7.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "optionalDependencies": {},
+  "main": "lib/proxy-server.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha",
+    "debug": "node --inspect-brk=9229 lib/proxy-server.js",
+    "publish": "npm publish"
+  }
+}
