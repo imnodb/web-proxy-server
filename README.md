@@ -1,21 +1,15 @@
-# proxy-server
-
-Development... 开发中
+# web-proxy-server
 
 # Usage
 
 ```javascript
-var proxyServer = require("proxy-server");
-// proxyServer();
-```
-
-`proxyServer` To use a command line switch.
-
-```javascript
-//
+const proxyServer = require("proxy-server");
+const proxy = new proxyServer(function (proxyReqOpts) {
+  console.log(proxyReqOpts);
+});
 ```
 
 # Installation
 
-    npm install proxy-server
+    npm install web-proxy-server
 
